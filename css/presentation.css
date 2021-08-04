@@ -1,0 +1,492 @@
+body {
+    /* background-color: white;*/
+    background-color: #0a192f;
+}
+
+.cyan {
+    color: #64FFDA;
+}
+
+.app {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.container {
+    scroll-snap-align: center;
+}
+
+
+/* ================================================================= NAVBAR */
+
+@font-face {
+    font-family: "SFmono";
+    src: url("../asset/SFMonoLight.otf");
+}
+
+.affix {
+    background-color: #09192F;
+    opacity: 8;
+}
+
+.line::before,
+.line::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #64FFDA;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+.line::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.line::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.line:hover::before,
+.line:hover::after {
+    transform: scaleX(1);
+}
+
+
+/*/////////////////////////////////////////////////////////////// NAVBAR SMOOTH SCROLL*/
+
+.smoothAnim {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    transition: top 0.25s;
+    backdrop-filter: blur(20px);
+}
+
+.scroll {
+    box-shadow: bottom black;
+    opacity: 90%;
+    z-index: 10;
+}
+
+
+/* ///////////////////*/
+
+nav {
+    font-family: "SFmono";
+}
+
+nav div {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: #CCD6F6;
+    transition: all 0.5s ease-in-out;
+}
+
+nav div a:hover {
+    color: #64FFDA;
+    text-decoration: none;
+}
+
+nav span {
+    color: #64FFDA;
+}
+
+.CHEVRON {
+    font-size: 30px;
+    color: #CCD6F6;
+    transition: all 0.5s ease-in-out;
+}
+
+.CHEVRON:hover {
+    color: #64FFDA;
+}
+
+.photo {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.position {
+    margin-top: 10%;
+}
+
+.resume {
+    border: 1px solid #64FFDA;
+    color: #64FFDA;
+    border-radius: 5px;
+}
+
+.resume a {
+    color: #64FFDA;
+}
+
+#resume {
+    transition: all 0.25s ease-in-out;
+}
+
+#resume:hover,
+#resume:focus {
+    background-color: #245C61;
+}
+
+
+/* ================================================================= Presentation */
+
+@font-face {
+    font-family: "CalibreLight";
+    src: url("../asset/Calibre-Light.ttf")
+}
+
+.p1 {
+    padding: 0;
+    margin: 0;
+    color: #64FFDA;
+    font-size: large;
+    font-family: "SFmono";
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: "CalibreSemiBold";
+    src: url("../asset/CalibreSemibold.otf");
+}
+
+.p2 {
+    font-family: "CalibreSemiBold";
+    color: #CCD6F6;
+    font-size: 80px;
+    margin-bottom: -25px
+}
+
+.p3 {
+    font-family: "CalibreSemiBold";
+    color: #8892B0;
+    font-size: 80px;
+    margin-bottom: -5px;
+}
+
+@font-face {
+    font-family: "CalibreRegular";
+    src: url("/asset/Calibre-Regular.ttf");
+}
+
+.p4 {
+    font-family: "CalibreRegular";
+    color: #8892B0;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 70px!important;
+}
+
+.meContacter {
+    font-family: "SFmono";
+    color: #64FFDA;
+    border-radius: 5px;
+    border: 1px solid;
+    transition: all 0.25s ease-in-out;
+}
+
+.meContacter:hover,
+.meContacter:focus {
+    background-color: #245C61;
+}
+
+.presentation {
+    margin-right: 250px;
+}
+
+.presentation-parent {
+    margin-top: 190px;
+}
+
+
+/* ================================================================= barre sticky gauche & droite*/
+
+.ligneDroite {
+    border-left: solid 1px;
+    display: inline-block;
+    height: 150px;
+    color: #8C97B5;
+}
+
+.icon-color {
+    color: #CCD6F6;
+    font-size: 22px;
+}
+
+.network {
+    position: fixed;
+    bottom: 0;
+    left: 50px;
+}
+
+.network i {
+    padding: 5px;
+    color: #8C97B5;
+    transition: all 0.25s ease-in-out;
+}
+
+.network i:hover,
+.network i:focus {
+    color: #64FFDA;
+}
+
+.network span {
+    position: relative;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.network span:hover,
+.network span:focus {
+    color: #64FFDA;
+    top: -5px;
+}
+
+.network-right {
+    position: fixed;
+    bottom: 0;
+    right: 1px;
+}
+
+.network-right p {
+    font-family: "SFmono";
+    font-size: large;
+    transform: rotate(90deg);
+}
+
+.network-right a {
+    color: #CCD6F6;
+    position: relative;
+    top: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.network-right a:hover,
+.network-right a:focus {
+    color: #64FFDA;
+    top: -5px;
+}
+
+.network-right p:hover,
+.network-right p:focus {
+    color: #64FFDA;
+}
+
+
+/*================================================================ ABOUT ME */
+
+.header1 {
+    font-family: "SFmono";
+    color: #64FFDA;
+    font-size: large;
+    font-weight: bold;
+}
+
+.header2 {
+    font-family: "CalibreSemiBold";
+    color: #CCD6F6;
+    font-size: xx-large;
+}
+
+.hr {
+    margin-top: 20px;
+    border-color: #8892B0;
+    width: 20em;
+    margin-left: 1em;
+    opacity: 25%;
+}
+
+.aboutMeText {
+    width: 65%;
+    line-height: 25px;
+    font-family: "CalibreRegular";
+    font-size: 20px;
+    color: #8892B0;
+}
+
+.aboutMe {
+    padding-top: 100px;
+    margin-top: 400px;
+    margin-left: 25rem;
+}
+
+.photo {
+    right: 20%;
+    top: 85px;
+    filter: grayscale();
+    transition: all 0.5s ease-in-out;
+}
+
+.photo:hover {
+    filter: none;
+}
+
+.photo #empilement {
+    transition: all 0.25s ease-in-out;
+}
+
+.photo:hover #empilement {
+    margin-top: -4px;
+    margin-left: -4px;
+    background-color: #64FFDA;
+}
+
+.empilement {
+    background-color: #0a192f;
+    top: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 271px;
+    height: 318px;
+    border: solid 2px #64FFDA;
+    z-index: -1;
+}
+
+.skills {
+    font-family: "SFmono";
+    font-size: medium;
+    list-style: none;
+}
+
+.skills i {
+    color: #64FFDA;
+}
+
+
+/* ================================================================= Experience */
+
+.experience {
+    padding-top: 100px;
+    margin-left: 25rem;
+    margin-top: 200px;
+}
+
+
+/* ============================== Work */
+
+.work {
+    padding-top: 100px;
+    margin-top: 200px;
+}
+
+.photoGram {
+    width: 60%;
+    z-index: 1;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.photoGram:hover {
+    filter: unset;
+    transform: scale(1.5);
+}
+
+.textGram {
+    width: 50%;
+    z-index: 2;
+    font-family: "CalibreRegular";
+    font-size: 20px;
+    text-align: end;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    background-color: #132D3E;
+}
+
+.projectTitle {
+    text-align: end;
+    font-family: "CalibreSemiBold";
+    font-size: xx-large;
+    color: #CCD6F6;
+    line-height: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.project {
+    text-align: end;
+    font-family: "SFmono";
+    font-size: medium;
+    line-height: 10px;
+}
+
+.projectTitles {
+    margin-top: -90px;
+}
+
+.projectTitle:hover {
+    color: #64FFDA;
+}
+
+.projectTechno {
+    color: #CCD6F6;
+    font-family: "SFmono";
+    font-size: small;
+    top: 170px;
+}
+
+.githubLink i {
+    font-size: 20px;
+    color: #CCD6F6;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.githubLink i:hover {
+    color: #64FFDA;
+}
+
+
+/*----------------------------------------------------------------CONTACT*/
+
+.showBox {
+    margin-top: 200px;
+}
+
+.showLess {
+    border: 1px solid #64FFDA;
+    color: #64FFDA;
+    font-family: "SFmono";
+    font-size: small;
+}
+
+.contact {
+    margin-top: 400px;
+    margin-bottom: 250px;
+}
+
+.lastText {
+    font-family: "CalibreSemiBold";
+    color: #CCD6F6;
+    font-size: 50px;
+}
+
+.lastP {
+    font-family: "CalibreRegular";
+    font-size: large;
+    color: #CCD6F6;
+}
+
+.lastTitle {
+    color: #64FFDA;
+    font-family: "SFmono";
+    font-size: large;
+}
+
+
+/* ================================================================= FOOTER*/
+
+.footer {
+    color: #CCD6F6;
+    font-family: "SFmono";
+    font-size: small;
+}
