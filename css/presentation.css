@@ -50,17 +50,21 @@ body {
     scroll-snap-align: center;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
 
 /* ================================================================= NAVBAR */
 
 @font-face {
     font-family: "SFmono";
     src: url("../asset/SFMonoLight.otf");
-}
-
-.affix {
-    background-color: #09192F;
-    opacity: 8;
 }
 
 .line::before,
@@ -98,10 +102,10 @@ body {
     padding-bottom: 20px;
     top: 0;
     transition: top 0.25s;
-    backdrop-filter: blur(20px);
 }
 
 .scroll {
+    background-color: #09192F;
     box-shadow: bottom black;
     opacity: 90%;
     z-index: 10;
@@ -373,8 +377,7 @@ nav span {
     transition: all 0.25s ease-in-out;
 }
 
-.network span:hover,
-.network span:focus {
+.network span:hover {
     color: #64FFDA;
     top: -5px;
 }
@@ -384,7 +387,7 @@ nav span {
     bottom: 0;
     right: 1px;
     opacity: 0;
-    animation: net-load var(--network-load-time) ease-in;
+    animation: net-load var(--nav-load-time) ease-in;
     animation-fill-mode: forwards;
     animation-delay: 3.70s;
 }
@@ -402,8 +405,7 @@ nav span {
     transition: all 0.25s ease-in-out;
 }
 
-.network-right a:hover,
-.network-right a:focus {
+.network-right a:hover {
     color: #64FFDA;
     top: -5px;
 }
@@ -442,12 +444,12 @@ nav span {
     line-height: 25px;
     font-family: "CalibreRegular";
     font-size: 20px;
-    color: #8892B0;
+    color: #CCD6F6;
 }
 
 .aboutMe {
     padding-top: 100px;
-    margin-top: 400px;
+    margin-top: 250px;
     margin-left: 25rem;
 }
 
@@ -526,12 +528,12 @@ nav span {
     width: 50%;
     z-index: 2;
     font-family: "CalibreRegular";
-    font-size: 20px;
+    font-size: 18px;
     text-align: end;
     position: absolute;
-    top: 150px;
+    top: 125px;
     right: 0;
-    background-color: #132D3E;
+    background-color: #112240;
 }
 
 .projectTitle {

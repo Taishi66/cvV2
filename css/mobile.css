@@ -1,0 +1,177 @@
+@media screen and (min-width:800px) {
+    header {
+        display: none;
+    }
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #64FFDA;
+}
+
+@media screen and (max-width: 400px) {
+    .app {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container {
+        width: unset;
+    }
+    .contact,
+    .smoothAnim,
+    .network,
+    .network-right {
+        display: none!important;
+    }
+    header {
+        display: block;
+    }
+    /*//////////////media burger */
+    .nav-menuBurger {
+        z-index: 9;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        flex-direction: column;
+        background-color: #09192F;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+    .nav-menuBurger.active {
+        left: 0;
+    }
+    .nav-linkBurger {
+        font-size: large;
+    }
+    .nav-itemBurger {
+        margin: 2.5rem 0;
+    }
+    .hamburger {
+        z-index: 10;
+        position: fixed;
+        right: 15px;
+        top: 10px;
+        display: block;
+        cursor: pointer;
+    }
+    /* =================================================================presentation*/
+    .presentation {
+        padding: 15px;
+        margin-right: unset;
+    }
+    .p1 {
+        font-size: large;
+    }
+    .p2 {
+        font-size: 35px;
+    }
+    .p3 {
+        margin-top: 25px;
+        font-size: xx-large;
+    }
+    .p4 {
+        width: 90%;
+        font-size: large;
+    }
+    /* ================================================================= About me */
+    .aboutMe {
+        padding-top: unset!important;
+        margin-top: unset!important;
+        margin-left: unset!important;
+    }
+    .titleHeader {
+        margin-left: -30px;
+    }
+    .header1 {
+        font-weight: unset!important;
+        font-size: large;
+    }
+    .header2 {
+        padding-top: 5px;
+        font-size: x-large;
+    }
+    .hr {
+        width: 45%;
+    }
+    .aboutMeText {
+        width: 100%!important;
+        font-size: large;
+        margin-left: -50px;
+    }
+    .skills {
+        font-size: small;
+    }
+    .photo {
+        z-index: 8;
+        margin-top: -75px;
+        filter: unset!important;
+    }
+    .photo img {
+        margin-left: 30px!important;
+        width: 75%!important;
+    }
+    .empilement {
+        left: 40px!important;
+        width: 75%!important;
+        height: 263px!important;
+        top: 20px!important;
+        background-color: black;
+    }
+    .aboutChild {
+        flex-direction: column;
+    }
+    /*---------------------------------------------------------------- Experience */
+    .experience {
+        margin-top: 350px!important;
+        margin-left: unset!important;
+    }
+    /* ============================== work=================*/
+    .work {
+        margin-top: unset!important;
+    }
+    .workPhoto {
+        z-index: -1!important;
+        width: 75%!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+    }
+    .workPhoto img {
+        position: unset!important;
+        width: 100%!important;
+        filter: unset !important;
+    }
+    .projectTitle {
+        text-align: left!important;
+    }
+    .project {
+        text-align: left!important;
+    }
+    .projectTitles {
+        padding-top: 20px;
+        margin-top: unset!important;
+    }
+    .textGram {
+        text-align: left!important;
+        margin-top: 170px!important;
+    }
+    .projectTechno {
+        font-size: small;
+        position: unset!important;
+        margin-top: 250px!important;
+        text-align: end!important;
+    }
+    .projectTechno p {
+        text-align: center!important;
+        margin-left: 10px!important;
+    }
+}

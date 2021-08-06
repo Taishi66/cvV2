@@ -9,24 +9,54 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/presentation.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>LAMY[JC]</title>
 </head>
 
 <body>
     <!-- Navbar et block accueil -->
     <div class="app">
+
+        <header class="header">
+            <nav class="navbarBurger">
+                <ul class="nav-menuBurger">
+                    <li class="nav-itemBurger">
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>01. </span><a href="#about">About</a></div>
+                    </li>
+                    <li class="nav-itemBurger">
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>02. </span><a href="#experience">Experience</a></div>
+                    </li>
+                    <li class="nav-itemBurger">
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>03. </span><a href="#work">Work</a></div>
+                    </li>
+                    <li class="nav-itemBurger">
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>04. </span><a href="#contact">Contact</a></div>
+                    </li>
+                    <li class="nav-itemBurger">
+                        <div id="resume" class="mr-5 resume px-3 py-2 mt-2 mx-3 nav-linkBurger"><a id="resumeText" href="">Resume</a></div>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
         <nav id="navbar" class="position-sticky d-flex navbar-nav navbar-expand-lg mt-5 mr-5 justify-content-between smoothAnim">
             <div class="logo ml-5">
                 <a href="index.html">
                     <i class="CHEVRON fas fa-chevron-left"></i>
                 </a>
             </div>
+
             <div class="d-flex text-center zindex-1 menu">
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>01. </span><a class="line" href="#about">About</a></div>
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>02. </span><a class="line" href="#experience">Experience</a></div>
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>03. </span><a class="line" href="#work">Work</a></div>
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>04. </span><a class="line" href="#contact">Contact</a></div>
-                <div id="resume" class="mr-5 resume px-3 py-2 mt-2" class="mx-3 nav-item"><a id="resumeText" href="">Resume</a></div>
+                <div id="resume" class="mr-5 resume px-3 py-2 mt-2 mx-3 nav-item"><a id="resumeText" href="">Resume</a></div>
             </div>
         </nav>
         <div class="network text-center">
@@ -45,26 +75,27 @@
             </a>
             <div class="mt-5 ligneDroite"></div>
         </div>
+        <!-- accueil -->
         <div class="container d-flex justify-content-center presentation-parent mb-5">
             <div class="presentation">
                 <p class="p1">Hi, my name is</p>
                 <p class="p2">Jean Christophe.</p>
                 <p class="p3">I build things for the web.</p>
-                <p class="p4">Passionné de programmation, <br>je suis maintenant développeur web depuis 2ans.<br>Mon objectif est de créer une expérience digitale originale, accessible et innovante.</p>
+                <p class="p4">Passionné de programmation, <br>je suis maintenant développeur web depuis 2 ans.<br>Mon objectif est de créer une expérience digitale originale, accessible et innovante.</p>
                 <a style="text-decoration: none;" href="mailto:jctlamy@gmail.com"><span class="meContacter py-3 px-4">Get In Touch</span></a>
             </div>
         </div>
         <!-- Présentation -->
-        <div class="container aboutMe" id="about">
-            <div class="mt-5 d-flex justify-content-center ml-5">
-                <div class="header d-flex flex-column justify-content-center aboutMeLeft">
-                    <div class="d-flex mb-4">
+        <div class="container aboutMe fade-in" id="about">
+            <div class="mt-5 d-flex justify-content-center ml-5 aboutChild">
+                <div class="header d-flex flex-column justify-content-center">
+                    <div class="d-flex mb-4 titleHeader">
                         <p class="header1 pt-2 mr-2">01.</p>
                         <p class="header2">About Me</p>
                         <hr class="hr">
                     </div>
                     <div class="aboutMeText">
-                        Bonjour! Je m'apelle JC et j'adore tout ce qui touche au monde digital, notemment celui du développement web<br> Ancien sportif de haut niveau en judo, je suis une personne de défie et apprécie encore plus apprendre de nouvelles
+                        Bonjour! Je m'apelle JC et j'adore tout ce qui touche au monde digital, notemment celui du développement web.<br> Ancien sportif de haut niveau en judo, je suis une personne de défie et apprécie encore plus apprendre de nouvelles
                         choses, ce qui m'a redirigé vers la programmation après de longues années en restauration à chercher mon chemin. Je pratique depuis maintenant 2ans, d'abord sur de simple page HTML CSS, et depuis 1 an sur de véritables sites en
                         front et back. Les langages et outils que je manipule actuellement sont :
                         <div class="d-flex mt-3 justify-content-between">
@@ -89,10 +120,10 @@
             </div>
         </div>
         <!-- experience -->
-        <div class="container experience" id="experience">
+        <div class="container experience fade-in" id="experience">
             <div class="mt-5 d-flex justify-content-center ml-5">
                 <div class="header d-flex flex-column justify-content-center">
-                    <div class="d-flex mb-4">
+                    <div class="d-flex mb-4 titleHeader">
                         <p class="header1 pt-2 mr-2">02.</p>
                         <p class="header2">Experience</p>
                         <hr class="hr">
@@ -104,9 +135,9 @@
             </div>
         </div>
         <!-- work -->
-        <div class="container work" id="work">
-            <div class="d-flex justify-content-center">
-                <div class="header d-flex flex-column">
+        <div class="container work fade-in" id="work">
+            <div class="d-flex justify-content-center ">
+                <div class="header d-flex flex-column workMobile">
                     <div class="d-flex mb-4">
                         <p class="header1 mr-2 pt-2">03.</p>
                         <p class="header2">Work</p>
@@ -119,9 +150,9 @@
                                 <p class="cyan project">Projet</p>
                                 <p class="projectTitle">Gretagram</p>
                             </div>
-                            <p class="aboutMeText textGram p-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sint velit sunt illo quisquam maxime labore, eaque dolorum quibusdam quas nulla sed non itaque nesciunt laborum neque rerum? Quaerat, cum.
-                            </p>
+                            <p class="aboutMeText textGram p-4 mt-2">
+                                Gretagram est un clone d'instagram réalisé pour mon examen final du titre professionnel de développeur web et web mobile obtenu en Juin 2021. Les fonctionnalités vont de la création de compte jusqu'à la discussion privée avec une des insrit. Les story
+                                et follow/unfollow sont en cours d'implémentation. </p>
                             <div class="projectTechno position-relative d-flex flex-column">
                                 <div class="d-flex justify-content-end mt-4">
                                     <p>Php</p>
@@ -145,7 +176,7 @@
         </div>
 
 
-        <div id="contact" class="contact d-flex justify-content-center">
+        <div id="contact" class="contact d-flex justify-content-center fade-in">
             <div class="container justify-content-center">
                 <div class="lastHeader d-flex justify-content-center">
                     <p class="header1">0.4</p>
@@ -153,8 +184,9 @@
                 </div>
                 <div class="d-flex flex-column text-center">
                     <p class="lastText">Get In Touch</p>
-                    <p class="lastP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, praesentium quis! Eius suscipit dolorem totam maiores nobis aliquid rem dicta repudiandae eaque corporis, sit soluta nisi cum! Aspernatur quae veritatis at exercitationem
-                        ab libero tempora, magnam illum repudiandae enim omnis odio animi quod nobis ad sit molestias repellat? Id, consequatur!</p>
+                    <p class="lastP">Merci d'être allé au bout de ce CV, en espérant que ça vous a plût! Il est réalisé en HTML CSS javascript brute, le code source est disponible sur mon github. Je m'inspire de site déjà existant et trouvé lors de veille sur github ou
+                        tout simplement sur Google. Concernant la page d'accueil en Three.js, je l'ai récupéré sur codepen (hélas je ne fais pas de Three.js), et il s'agit d'un snippet crée par Ricardo Sanprieto, un développeur front d'exception! L'effet
+                        de particule au mouvement et au clique est juste incroyable... Bref, à bientôt!</p>
                 </div>
                 <div class="contactBox text-center mt-5">
                     <a style="text-decoration: none;" href="mailto:jctlamy@gmail.com"><span class="meContacter py-3 px-4">Say Hello</span></a>
