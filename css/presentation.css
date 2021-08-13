@@ -303,7 +303,7 @@ nav span {
 
 @font-face {
     font-family: "CalibreRegular";
-    src: url("/asset/Calibre-Regular.ttf");
+    src: url("../asset/Calibre-Regular.ttf");
 }
 
 .p4 {
@@ -462,7 +462,6 @@ nav span {
 .aboutMe {
     padding-top: 100px;
     margin-top: 250px;
-    margin-left: 25rem;
 }
 
 .photo {

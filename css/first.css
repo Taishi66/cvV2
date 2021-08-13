@@ -2,7 +2,7 @@
     
     @font-face {
         font-family: 'vendemia';
-        src: url("/asset/Vindemia.ttf");
+        src: url("../asset/Vindemia.ttf");
     }
     
     html,
