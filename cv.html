@@ -11,12 +11,20 @@
     <link rel="stylesheet" type="text/css" href="css/presentation.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <title>LAMY[JC]</title>
 </head>
 
 <body>
     <!-- Navbar et block accueil -->
-    <div class="app">
+    <div class="app" id="index">
         <header class="header">
             <nav class="navbarBurger">
                 <ul class="nav-menuBurger">
@@ -48,7 +56,7 @@
 
         <nav id="navbar" class="position-sticky d-flex navbar-nav navbar-expand-lg mt-5 mr-5 justify-content-between smoothAnim">
             <div class="logo ml-5">
-                <a href="index.html">
+                <a href="#index">
                     <i class="CHEVRON fas fa-chevron-left"></i>
                 </a>
             </div>
@@ -58,7 +66,7 @@
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>02. </span><a class="line" href="#experience">Experience</a></div>
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>03. </span><a class="line" href="#work">Work</a></div>
                 <div class="mt-2 mx-3 nav-item position-relative pt-2"><span>04. </span><a class="line" href="#contact">Contact</a></div>
-                <div id="resume" class="mr-5 resume px-3 py-2 mt-2 mx-3 nav-item"><a id="resumeText" href="CV.pdf" target="_blank ">Resume</a></div>
+                <div id="resume" class="mr-5 resume px-3 py-2 mt-2 mx-3 nav-item"><a id="resumeText" href="CV.pdf" target="_blank" download>Resume</a></div>
             </div>
         </nav>
         <div class="network text-center">
@@ -78,7 +86,7 @@
             <div class="mt-5 ligneDroite"></div>
         </div>
         <!-- accueil -->
-        <div class="container d-flex justify-content-center presentation-parent mb-5">
+        <div class="container d-flex justify-content-center presentation-parent mb-5" id="presentation">
             <div class="presentation">
                 <p class="p1">Hi, my name is</p>
                 <p class="p2">Jean Christophe.</p>
@@ -187,8 +195,7 @@
                 <div class="d-flex flex-column text-center">
                     <p class="lastText">Get In Touch</p>
                     <p class="lastP">Merci d'être allé au bout de ce CV, en espérant que ça vous a plût! Il est réalisé en HTML CSS javascript brute, le code source est disponible sur mon github. Je m'inspire de site déjà existant et trouvé lors de veille sur github ou
-                        tout simplement sur Google.<br><br> Concernant la page d'accueil en Three.js, je l'ai récupéré sur codepen (hélas je ne fais pas de Three.js), et il s'agit d'un snippet crée par Ricardo Sanprieto, un développeur front d'exception!
-                        L'effet de particule au mouvement et au clique est juste incroyable... Bref, à bientôt!</p>
+                        tout simplement sur Google.. A bientôt peut-être!</p>
                 </div>
                 <div class="contactBox text-center mt-5">
                     <a style="text-decoration: none;" href="mailto:jctlamy@gmail.com"><span class="meContacter py-3 px-4">Say Hello</span></a>
