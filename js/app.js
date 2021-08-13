@@ -56,12 +56,18 @@ $(document).ready(function() {
     //burger menu 
     const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".nav-menuBurger");
+    const menuItem = document.querySelectorAll(".closeMenu");
 
     hamburger.addEventListener("click", mobileMenu);
+    $(menuItem).on('click', mobileMenu);
 
     function mobileMenu() {
         hamburger.classList.toggle("active");
         navMenu.classList.toggle("active");
     }
+
+
+
+
 
 });

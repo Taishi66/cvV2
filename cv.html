@@ -8,32 +8,34 @@
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/presentation.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/presentation.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+
     <title>LAMY[JC]</title>
 </head>
 
 <body>
     <!-- Navbar et block accueil -->
     <div class="app">
-
         <header class="header">
             <nav class="navbarBurger">
                 <ul class="nav-menuBurger">
                     <li class="nav-itemBurger">
-                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>01. </span><a href="#about">About</a></div>
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>01. </span><a class="closeMenu" href="#about">About</a></div>
                     </li>
                     <li class="nav-itemBurger">
-                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>02. </span><a href="#experience">Experience</a></div>
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>02. </span><a class="closeMenu" href="#experience">Experience</a></div>
                     </li>
                     <li class="nav-itemBurger">
-                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>03. </span><a href="#work">Work</a></div>
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>03. </span><a class="closeMenu" href="#work">Work</a></div>
                     </li>
                     <li class="nav-itemBurger">
-                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>04. </span><a href="#contact">Contact</a></div>
+                        <div class="mt-2 mx-3 nav-linkBurger position-relative pt-2"><span>04. </span><a class="closeMenu" href="#contact">Contact</a></div>
                     </li>
                     <li class="nav-itemBurger">
-                        <div id="resume" class="mr-5 resume px-3 py-2 mt-2 mx-3 nav-linkBurger"><a id="resumeText" href="">Resume</a></div>
+                        <div id="resume" class="mr-5 resume py-2 mt-2 nav-linkBurger">
+                            <a id="resumeText" href="CV.pdf" target="_blank">Resume</a>
+                        </div>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -98,7 +100,7 @@
                         Bonjour! Je m'apelle JC et j'adore tout ce qui touche au monde digital, notemment celui du développement web.<br> Ancien sportif de haut niveau en judo, je suis une personne de défie et apprécie encore plus apprendre de nouvelles
                         choses, ce qui m'a redirigé vers la programmation après de longues années en restauration à chercher mon chemin. Je pratique depuis maintenant 2ans, d'abord sur de simple page HTML CSS, et depuis 1 an sur de véritables sites en
                         front et back. Les langages et outils que je manipule actuellement sont :
-                        <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex mt-3 justify-content-between listSkills">
                             <ul class="skills">
                                 <li><i class="fas fa-caret-right mr-3"></i>Php</li>
                                 <li><i class="fas fa-caret-right mr-3"></i>Sql</li>
@@ -138,14 +140,14 @@
         <div class="container work fade-in" id="work">
             <div class="d-flex justify-content-center ">
                 <div class="header d-flex flex-column workMobile">
-                    <div class="d-flex mb-4">
+                    <div class="d-flex mb-4 titleHeader">
                         <p class="header1 mr-2 pt-2">03.</p>
                         <p class="header2">Work</p>
                         <hr class="hr">
                     </div>
                     <div class="workPhoto position-relative d-flex">
                         <img class="position-abolute photoGram rounded" src="/img/homeCV.png">
-                        <div class="w-50 d-flex flex-column justify-content-center">
+                        <div class="w-50 d-flex flex-column justify-content-center projectHead">
                             <div class="projectTitles">
                                 <p class="cyan project">Projet</p>
                                 <p class="projectTitle">Gretagram</p>
@@ -185,8 +187,8 @@
                 <div class="d-flex flex-column text-center">
                     <p class="lastText">Get In Touch</p>
                     <p class="lastP">Merci d'être allé au bout de ce CV, en espérant que ça vous a plût! Il est réalisé en HTML CSS javascript brute, le code source est disponible sur mon github. Je m'inspire de site déjà existant et trouvé lors de veille sur github ou
-                        tout simplement sur Google. Concernant la page d'accueil en Three.js, je l'ai récupéré sur codepen (hélas je ne fais pas de Three.js), et il s'agit d'un snippet crée par Ricardo Sanprieto, un développeur front d'exception! L'effet
-                        de particule au mouvement et au clique est juste incroyable... Bref, à bientôt!</p>
+                        tout simplement sur Google.<br><br> Concernant la page d'accueil en Three.js, je l'ai récupéré sur codepen (hélas je ne fais pas de Three.js), et il s'agit d'un snippet crée par Ricardo Sanprieto, un développeur front d'exception!
+                        L'effet de particule au mouvement et au clique est juste incroyable... Bref, à bientôt!</p>
                 </div>
                 <div class="contactBox text-center mt-5">
                     <a style="text-decoration: none;" href="mailto:jctlamy@gmail.com"><span class="meContacter py-3 px-4">Say Hello</span></a>
@@ -194,8 +196,18 @@
             </div>
 
         </div>
+
     </div>
-    <footer class="position fixed text-center footer mb-4">Designed && Build by Lamy Jean Christophe</footer>
+    <div class="endPage d-flex flex-column">
+        <div class="networkMobile">
+            <div class="d-flex networkMobileIcon">
+                <span><a target="_blank " href="github.com/Taishi66"><i class="fab fa-github-alt mb-4"></i></a></span>
+                <span><a target="_blank " href="https://www.instagram.com/haralamy/"><i class="fab fa-instagram mb-4"></i></a></span>
+                <span><a traget="_blank " href="https://www.linkedin.com/in/jean-christophe-lamy-8225781a5/"><i class="fab fa-linkedin mb-4"></i></a></span>
+            </div>
+        </div>
+        <div class="position fixed text-center footer mb-4">Designed && Build by Lamy Jean Christophe</div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
