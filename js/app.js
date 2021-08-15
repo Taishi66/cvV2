@@ -63,6 +63,7 @@ $(document).ready(function() {
 
     function mobileMenu() {
         hamburger.classList.toggle("active");
+        hamburger.classList.toggle("change");
         navMenu.classList.toggle("active");
     }
 
