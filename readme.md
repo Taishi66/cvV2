@@ -4,9 +4,13 @@
 <br>
 
 `[ Still working on the responsive ]`
-<br>
+<br><br>
 ----
-Go have a look! 
-<center><b><a href="https://jcharalamy.com">jcharalamy.com</a></b></center>
+<div align="center">
+    <b>
+      Go have a look!<br><br>
+    <a href="https://jcharalamy.com">jcharalamy.com</a>
+  </b>
+  </div>
 <br><br>
 <img src="./img/pic_readme_cv-min.png"/>
