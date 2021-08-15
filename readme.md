@@ -18,7 +18,7 @@
   </div>
 <br><br>
 <img class="img" src="./img/pic_readme_cv-min.png"/>
-<div display="flex">
-    <img class="img" src="./img/pic_readme_mobile1.png"/>
-    <img class="img" src="./img/pic_readme_mobile.png"/>
+<div display="flex" class="mobile">
+    <img class="imgM" src="./img/pic_readme_mobile1.png"/>
+    <img class="imgM" src="./img/pic_readme_mobile.png"/>
 </div>

@@ -1,6 +1,18 @@
 .img {
     border: 1px solid #919191;
     border-radius: 5px;
+    margin: 10px;
+}
+
+.imgM {
+    border: 1px solid #919191;
+    border-radius: 5px;
+    width: 20rem;
+    margin-left: 80px;
+}
+
+.mobile {
+    justify-content: space-around;
 }
 
 a {
