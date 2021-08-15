@@ -411,6 +411,9 @@
     * {
         box-sizing: border-box;
     }
+    #navbar {
+        margin-right: -290px !important;
+    }
     .presentation-parent {
         margin-left: 200px!important;
     }
@@ -432,6 +435,10 @@
     }
     .textGram {
         margin-top: -60px !important;
+    }
+    .workPhoto img {
+        filter: unset!important;
+        transform: scale(1.25);
     }
     .contact {
         margin-left: 200px!important;
