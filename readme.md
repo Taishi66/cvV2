@@ -1,6 +1,6 @@
 # Personnal Website
 
-**All made in plain HTML CSS JS** and a bit of Bootstrap
+**Made from scratch in plain HTML CSS JS** and a bit of Bootstrap
 <br>
 
 `[ Still working on the responsive ]`
