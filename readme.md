@@ -15,9 +15,17 @@
       Go have a look!<br><br>
     <a href="https://jcharalamy.com"><p>jcharalamy.com</p></a>
   </b>
-  </div>
-<br><br>
+</div>
+<hr>
+
+## Desktop
+
 <img class="img" src="./img/pic_readme_cv-min.png"/>
+
+<hr>
+
+## Mobile
+
 <div display="flex" class="mobile">
     <img class="imgM" src="./img/pic_readme_mobile1.png"/>
     <img class="imgM" src="./img/pic_readme_mobile.png"/>
