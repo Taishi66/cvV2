@@ -55,6 +55,10 @@
         display: block;
     }
     /*//////////////media burger */
+    @font-face {
+        font-family: "SFmono";
+        src: url("../asset/SFMonoLight.otf");
+    }
     .hamburger {
         padding: 5px;
         border-radius: 5px;
@@ -65,9 +69,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        background-color: #09192F;
     }
     .nav-menuBurger {
-        font-weight: bold;
         opacity: 85%;
         display: flex;
         flex-direction: column;
@@ -102,7 +106,8 @@
         }
     }
     .nav-itemBurger {
-        margin: 3rem 0;
+        font-family: "SFmono";
+        margin: 1.5rem 0;
     }
     .resume {
         text-align: center!important;
