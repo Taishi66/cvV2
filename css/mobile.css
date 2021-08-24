@@ -459,12 +459,12 @@
 /* ============================== LAPTOP*/
 @media only screen and (min-width:911px) and (max-width:1080px) {
     html {
-        height: 100%;
-        width: 100%;
+        height: 100%!important;
+        width: 100%!important;
     }
     
     * {
-        box-sizing: border-box;
+        box-sizing: border-box!important;
     }
     
     #navbar {
@@ -473,6 +473,11 @@
     
     .presentation-parent {
         margin-left: 200px!important;
+    }
+    /* =================================================================about me*/
+    
+    .header2 {
+        font-size: xx-large!important;
     }
     
     .hr {
@@ -484,7 +489,7 @@
     }
     
     .aboutMeText {
-        width: 100%
+        width: 80%
     }
     
     .photo {
@@ -492,32 +497,44 @@
         width: 100%!important;
     }
     
-    .photo img {
-        width: 90%;
+    .empilement {
+        width: 100%!important;
+        height: 230px!important;
     }
+    
+    .photo img {
+        width: 95%!important;
+    }
+    /* ============================== Work */
     
     .work {
         margin-left: 190px!important;
     }
     
-    .projectTitles {
-        margin-top: -150px!important;
-    }
-    
     .textGram {
-        margin-top: -60px !important;
+        margin-top: 20px!important;
     }
     
     .workPhoto img {
         filter: unset!important;
-        transform: scale(1.25);
+        transform: unset!important;
     }
+    /* ============================== experience */
+    
+    .experience {
+        margin-bottom: 350px!important;
+    }
+    /* ============================== endpage */
     
     .contact {
-        margin-left: 200px!important;
+        margin-left: 140px!important;
+    }
+    
+    .lastHeader:first-child {
+        font-size: 20px!important;
     }
     
     .footer {
-        margin-left: 200px!important;
+        margin-left: 290px!important;
     }
 }
