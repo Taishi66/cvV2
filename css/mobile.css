@@ -421,120 +421,127 @@
 }
 
 
-}
-
 /* ==================================================================== MOBILE MEDIUM */
+
 @media only screen and (min-width:375px) and (max-width:424px) {
     html {
         height: 100%;
         width: 100%;
     }
-    
     * {
         box-sizing: border-box;
     }
-    
     .app {
         width: 100%!important;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
     .container {
         width: unset;
     }
-    
     .smoothAnim,
     .network,
     .network-right {
         display: none!important;
     }
-    
     header {
         display: block;
     }
 }
 
+
 /* ============================== LAPTOP*/
+
 @media only screen and (min-width:911px) and (max-width:1080px) {
     html {
         height: 100%!important;
         width: 100%!important;
     }
-    
     * {
         box-sizing: border-box!important;
     }
-    
     #navbar {
         margin-right: -290px !important;
     }
-    
     .presentation-parent {
         margin-left: 200px!important;
     }
     /* =================================================================about me*/
-    
     .header2 {
         font-size: xx-large!important;
     }
-    
     .hr {
         width: 60%!important;
     }
-    
     .aboutMe {
         margin-left: 190px !important;
     }
-    
     .aboutMeText {
         width: 80%
     }
-    
     .photo {
         filter: unset!important;
         width: 100%!important;
     }
-    
     .empilement {
         width: 100%!important;
         height: 230px!important;
     }
-    
     .photo img {
         width: 95%!important;
     }
     /* ============================== Work */
-    
     .work {
         margin-left: 190px!important;
+        margin-bottom: 350px!important;
     }
-    
     .textGram {
         margin-top: 20px!important;
     }
-    
     .workPhoto img {
         filter: unset!important;
         transform: unset!important;
     }
     /* ============================== experience */
-    
     .experience {
         margin-bottom: 350px!important;
     }
     /* ============================== endpage */
-    
     .contact {
         margin-left: 140px!important;
     }
-    
     .lastHeader:first-child {
         font-size: 20px!important;
     }
-    
     .footer {
         margin-left: 290px!important;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .header2 {
+        font-size: xx-large;
+    }
+    .photo img {
+        width: 96%!important;
+    }
+    .empilement {
+        width: 100%!important;
+        height: 320px!important;
+    }
+    .experience {
+        margin-bottom: 350px!important;
+    }
+    .work {
+        margin-left: 190px !important;
+        margin-bottom: 350px!important;
+    }
+    .contact {
+        margin-top: 350px!important;
+        margin-bottom: 100px!important;
+    }
+    .lastHeader:first-child {
+        font-size: 20px !important;
     }
 }
