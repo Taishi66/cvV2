@@ -203,9 +203,9 @@
         width: 75%!important;
     }
     .empilement {
-        left: 20%!important;
-        width: 75%!important;
-        height: 220px!important;
+        left: 17%!important;
+        width: 78%!important;
+        height: 222px!important;
         background-color: black;
     }
     .aboutChild {
@@ -247,7 +247,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:910px) {
     .header1 {
         font-size: x-large;
     }
@@ -474,17 +474,25 @@
         margin-left: 200px!important;
     }
     
+    .hr {
+        width: 60%!important;
+    }
+    
     .aboutMe {
         margin-left: 190px !important;
     }
     
-    .empilement {
-        width: 100%;
-        height: 220px;
+    .aboutMeText {
+        width: 100%
     }
     
     .photo {
         filter: unset!important;
+        width: 100%!important;
+    }
+    
+    .photo img {
+        width: 90%;
     }
     
     .work {

@@ -590,6 +590,22 @@ nav span {
     color: #64FFDA;
 }
 
+.githubLink {
+    position: relative!important;
+    z-index: 5;
+}
+
+.workMobile a {
+    position: relative;
+    z-index: 999!important;
+}
+
+.workMobile,
+.workPhoto,
+.projectHead {
+    z-index: 1;
+}
+
 
 /*----------------------------------------------------------------CONTACT*/
 
