@@ -434,10 +434,10 @@ nav span {
     font-family: "SFmono";
     color: #64FFDA;
     font-size: large;
-    font-weight: bold;
 }
 
 .header2 {
+    padding-top: 5px;
     font-family: "CalibreSemiBold";
     color: #CCD6F6;
     font-size: xx-large;
@@ -511,7 +511,6 @@ nav span {
 
 .experience {
     padding-top: 100px;
-    margin-left: 25rem;
     margin-top: 200px;
 }
 
@@ -524,7 +523,7 @@ nav span {
 }
 
 .photoGram {
-    width: 60%;
+    width: 70%;
     z-index: 1;
     filter: grayscale(100%);
     transition: all 0.5s ease-in-out;
@@ -536,14 +535,14 @@ nav span {
 }
 
 .textGram {
-    width: 50%;
+    width: 70%;
     z-index: 2;
     font-family: "CalibreRegular";
     font-size: 18px;
     text-align: end;
     position: absolute;
-    top: 125px;
-    right: 0;
+    top: 200px;
+    right: -100px;
     background-color: #112240;
     color: #CCD6F6;
 }
@@ -565,6 +564,7 @@ nav span {
 }
 
 .projectTitles {
+    margin-left: 290px;
     margin-top: -90px;
 }
 
@@ -621,6 +621,7 @@ nav span {
 }
 
 .contact {
+    margin-left: auto!important;
     margin-top: 400px;
     margin-bottom: 250px;
 }
