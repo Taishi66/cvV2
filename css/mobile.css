@@ -490,12 +490,13 @@
         width: 80%
     }
     .photo {
+        margin-left: 100px;
         filter: unset!important;
         width: 100%!important;
     }
     .empilement {
         width: 100%!important;
-        height: 230px!important;
+        height: 195px!important;
     }
     .photo img {
         width: 95%!important;
@@ -524,6 +525,6 @@
         font-size: 20px!important;
     }
     .footer {
-        margin-left: auto!important;
+        margin-left: 260px;
     }
 }
