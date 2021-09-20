@@ -29,7 +29,7 @@
 
 /* =======================================================MOBILE SMALL */
 
-@media screen and (min-width: 320px) and (max-width: 910px) {
+@media screen and (min-width: 300px) and (max-width: 910px) {
     html {
         height: 100%!important;
         width: 100%!important;
@@ -400,9 +400,6 @@
 @media screen and (min-width:375px) {
     .lastText {
         font-size: xx-large!important;
-    }
-    .lastP {
-        font-size: medium;
     }
 }
 

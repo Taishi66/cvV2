@@ -634,7 +634,7 @@ nav span {
 
 .lastP {
     font-family: "CalibreRegular";
-    font-size: large;
+    font-size: larger!important;
     color: #CCD6F6;
 }
 
