@@ -213,6 +213,12 @@
     }
 }
 
+@media screen and (max-height:600px) {
+    .empilement {
+        display: none;
+    }
+}
+
 @media screen and (min-width:375px) and (max-width: 424px) {
     .header1 {
         font-size: larger;
