@@ -5,7 +5,7 @@
 **Made from scratch in plain HTML CSS JS** and a bit of Bootstrap
 <br>
 
-`[ Still working on the responsive ]`
+`[ Still working on the responsive - switching bootstrap to Tailwind ]`
 <br><br>
 
 ---
