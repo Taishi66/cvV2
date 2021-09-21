@@ -316,6 +316,7 @@
     .workBlock {
         margin-left: unset!important;
     }
+    .workPhoto2,
     .workPhoto {
         position: unset !important;
         z-index: -1!important;
@@ -323,24 +324,44 @@
         flex-direction: column!important;
         justify-content: center!important;
     }
+    .workPhoto2 img {
+        margin-left: -30px!important;
+        position: unset!important;
+        width: 100%!important;
+        filter: unset !important;
+    }
     .workPhoto img {
         margin-left: -30px!important;
         position: unset!important;
         width: 100%!important;
         filter: unset !important;
     }
+    .projectHead2 {
+        width: 100%!important;
+    }
     .projectHead {
         width: 100%!important;
+    }
+    .projectTitles2 {
+        margin-top: unset!important;
+        margin-left: -300px!important;
+        padding-top: 20px;
     }
     .projectTitles {
         margin-left: -200px!important;
         padding-top: 20px;
         margin-top: unset!important;
     }
+    .projectTitles2 p {
+        width: 80%;
+        text-align: right!important;
+        margin-left: -30px!important;
+    }
     .projectTitles p {
         text-align: right!important;
         margin-right: 30px;
     }
+    .textGram2,
     .textGram {
         position: unset!important;
         text-align: left!important;
@@ -509,6 +530,7 @@
         margin-left: 190px!important;
         margin-bottom: 350px!important;
     }
+    .textGram2,
     .textGram {
         margin-top: 20px!important;
     }

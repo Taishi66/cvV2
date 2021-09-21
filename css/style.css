@@ -522,6 +522,11 @@ nav span {
     margin-top: 200px;
 }
 
+.workPhoto2,
+.workPhoto {
+    margin-bottom: 30px;
+}
+
 .photoGram {
     width: 70%;
     z-index: 1;
@@ -547,6 +552,19 @@ nav span {
     color: #CCD6F6;
 }
 
+.textGram2 {
+    width: 70%;
+    z-index: 2;
+    font-family: "CalibreRegular";
+    font-size: 18px;
+    text-align: end;
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    background-color: #112240;
+    color: #CCD6F6;
+}
+
 .projectTitle {
     text-align: end;
     font-family: "CalibreSemiBold";
@@ -566,6 +584,11 @@ nav span {
 .projectTitles {
     margin-left: 290px;
     margin-top: -90px;
+}
+
+.projectTitles2 {
+    margin-top: -90px;
+    margin-left: 370px;
 }
 
 .projectTitle:hover {
@@ -602,7 +625,8 @@ nav span {
 
 .workMobile,
 .workPhoto,
-.projectHead {
+.projectHead,
+.projectHead2 {
     z-index: 1;
 }
 
