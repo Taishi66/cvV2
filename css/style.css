@@ -75,7 +75,7 @@ body {
 
 @font-face {
     font-family: "SFmono";
-    src: url("../asset/SFMonoLight.otf");
+    src: url("../font/SFMonoLight.otf");
 }
 
 .line::before,
@@ -252,7 +252,7 @@ nav span {
 
 @font-face {
     font-family: "CalibreLight";
-    src: url("../asset/Calibre-Light.ttf");
+    src: url("../font/Calibre-Light.ttf");
 }
 
 .p1 {
@@ -272,7 +272,7 @@ nav span {
 
 @font-face {
     font-family: "CalibreSemiBold";
-    src: url("../asset/CalibreSemibold.otf");
+    src: url("../font/Calibre-Semibold.ttf");
 }
 
 .p2 {
@@ -303,7 +303,7 @@ nav span {
 
 @font-face {
     font-family: "CalibreRegular";
-    src: url("../asset/Calibre-Regular.ttf");
+    src: url("../font/Calibre-Regular.ttf");
 }
 
 .p4 {
