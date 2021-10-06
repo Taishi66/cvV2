@@ -1,15 +1,15 @@
 html {
-    height: 100%!important;
-    width: 100%!important;
+    height: 100% !important;
+    width: 100% !important;
 }
 
 * {
-    box-sizing: border-box!important;
+    box-sizing: border-box !important;
 }
 
 body {
-    min-width: 100%!important;
-    min-height: 100%!important;
+    min-width: 100% !important;
+    min-height: 100% !important;
     /* background-color: white;*/
     background-color: #0a192f;
     --nav-load-time: 300ms;
@@ -49,7 +49,7 @@ body {
 }
 
 .cyan {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 .app {
@@ -83,7 +83,7 @@ body {
     content: "";
     width: 100%;
     height: 1px;
-    background-color: #64FFDA;
+    background-color: #64ffda;
     position: absolute;
     left: 0;
     transform: scaleX(0);
@@ -116,7 +116,7 @@ body {
 }
 
 .scroll {
-    background-color: #09192F;
+    background-color: #09192f;
     box-shadow: bottom black;
     opacity: 90%;
     z-index: 10;
@@ -136,7 +136,7 @@ nav div {
 
 nav div a {
     text-decoration: none;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
 }
 
@@ -145,7 +145,7 @@ nav div a {
 
 .menu div:first-child {
     text-decoration: none;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
     animation: nav-load var(--nav-load-time) ease-in;
     animation-delay: 1.25s;
@@ -155,17 +155,17 @@ nav div a {
 
 .menu div:nth-child(2) {
     text-decoration: none;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
     animation: nav-load var(--nav-load-time) ease-in;
-    animation-delay: 1.40s;
+    animation-delay: 1.4s;
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .menu div:nth-child(3) {
     text-decoration: none;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
     animation: nav-load var(--nav-load-time) ease-in;
     animation-delay: 1.55s;
@@ -175,17 +175,17 @@ nav div a {
 
 .menu div:nth-child(4) {
     text-decoration: none;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
     animation: nav-load var(--nav-load-time) ease-in;
-    animation-delay: 1.70s;
+    animation-delay: 1.7s;
     opacity: 0;
     animation-fill-mode: forwards;
 }
 
 .menu div:last-child {
     text-decoration: none;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
     animation: nav-load var(--nav-load-time) ease-in;
     animation-delay: 1.85s;
@@ -197,17 +197,17 @@ nav div a {
 /*////////////////////////////////*/
 
 nav div a:hover {
-    color: #64FFDA;
+    color: #64ffda;
     text-decoration: none;
 }
 
 nav span {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 .CHEVRON {
     font-size: 30px;
-    color: #CCD6F6;
+    color: #ccd6f6;
     transition: all 0.5s ease-in-out;
     animation: nav-load var(--nav-load-time) ease-in;
     animation-delay: var(--network-load-time);
@@ -216,7 +216,7 @@ nav span {
 }
 
 .CHEVRON:hover {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 .photo {
@@ -229,13 +229,13 @@ nav span {
 }
 
 .resume {
-    border: 1px solid #64FFDA;
-    color: #64FFDA;
+    border: 1px solid #64ffda;
+    color: #64ffda;
     border-radius: 5px;
 }
 
 #resumeText {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 #resume {
@@ -244,7 +244,7 @@ nav span {
 
 #resume:hover,
 #resume:focus {
-    background-color: #245C61;
+    background-color: #245c61;
 }
 
 
@@ -252,13 +252,13 @@ nav span {
 
 @font-face {
     font-family: "CalibreLight";
-    src: url("../asset/Calibre-Light.ttf")
+    src: url("../asset/Calibre-Light.ttf");
 }
 
 .p1 {
     padding: 0;
     margin: 0;
-    color: #64FFDA;
+    color: #64ffda;
     font-size: large;
     font-family: "SFmono";
     margin-bottom: 10px;
@@ -277,7 +277,7 @@ nav span {
 
 .p2 {
     font-family: "CalibreSemiBold";
-    color: #CCD6F6;
+    color: #ccd6f6;
     font-size: 80px;
     margin-bottom: -25px;
     transition: all 0.5s ease-in-out;
@@ -290,7 +290,7 @@ nav span {
 
 .p3 {
     font-family: "CalibreSemiBold";
-    color: #8892B0;
+    color: #8892b0;
     font-size: 80px;
     margin-bottom: -5px;
     transition: all 0.5s ease-in-out;
@@ -308,10 +308,10 @@ nav span {
 
 .p4 {
     font-family: "CalibreRegular";
-    color: #8892B0;
+    color: #8892b0;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 70px!important;
+    margin-bottom: 70px !important;
     transition: all 0.5s ease-in-out;
     animation: about-load var(--nav-load-time) ease-in;
     animation-delay: 2.75s;
@@ -322,7 +322,7 @@ nav span {
 
 .meContacter {
     font-family: "SFmono";
-    color: #64FFDA;
+    color: #64ffda;
     border-radius: 5px;
     border: 1px solid;
     transition: all 0.25s ease-in-out;
@@ -335,7 +335,7 @@ nav span {
 
 .meContacter:hover,
 .meContacter:focus {
-    background-color: #245C61;
+    background-color: #245c61;
 }
 
 .presentation {
@@ -353,11 +353,11 @@ nav span {
     border-left: solid 1px;
     display: inline-block;
     height: 150px;
-    color: #8C97B5;
+    color: #8c97b5;
 }
 
 .icon-color {
-    color: #CCD6F6;
+    color: #ccd6f6;
     font-size: 22px;
     text-decoration: none;
 }
@@ -369,18 +369,18 @@ nav span {
     opacity: 0;
     animation: net-load var(--network-load-time) ease-in;
     animation-fill-mode: forwards;
-    animation-delay: 3.70s;
+    animation-delay: 3.7s;
 }
 
 .network i {
     padding: 5px;
-    color: #8C97B5;
+    color: #8c97b5;
     transition: all 0.25s ease-in-out;
 }
 
 .network i:hover,
 .network i:focus {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 .network span {
@@ -390,7 +390,7 @@ nav span {
 }
 
 .network span:hover {
-    color: #64FFDA;
+    color: #64ffda;
     top: -5px;
 }
 
@@ -401,7 +401,7 @@ nav span {
     opacity: 0;
     animation: net-load var(--nav-load-time) ease-in;
     animation-fill-mode: forwards;
-    animation-delay: 3.70s;
+    animation-delay: 3.7s;
 }
 
 .network-right p {
@@ -411,20 +411,20 @@ nav span {
 }
 
 .network-right a {
-    color: #CCD6F6;
+    color: #ccd6f6;
     position: relative;
     top: 0;
     transition: all 0.25s ease-in-out;
 }
 
 .network-right a:hover {
-    color: #64FFDA;
+    color: #64ffda;
     top: -5px;
 }
 
 .network-right p:hover,
 .network-right p:focus {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 
@@ -432,20 +432,20 @@ nav span {
 
 .header1 {
     font-family: "SFmono";
-    color: #64FFDA;
+    color: #64ffda;
     font-size: large;
 }
 
 .header2 {
     padding-top: 5px;
     font-family: "CalibreSemiBold";
-    color: #CCD6F6;
+    color: #ccd6f6;
     font-size: xx-large;
 }
 
 .hr {
     margin-top: 20px;
-    border-color: #8892B0;
+    border-color: #8892b0;
     width: 20em;
     margin-left: 1em;
     opacity: 25%;
@@ -456,7 +456,7 @@ nav span {
     line-height: 25px;
     font-family: "CalibreRegular";
     font-size: 20px;
-    color: #8892B0;
+    color: #8892b0;
 }
 
 .aboutMe {
@@ -465,8 +465,8 @@ nav span {
 }
 
 .photo {
-    right: 20%;
-    top: 85px;
+    right: 15%;
+    top: 70px;
     filter: grayscale();
     transition: all 0.5s ease-in-out;
 }
@@ -479,11 +479,13 @@ nav span {
     transition: all 0.25s ease-in-out;
 }
 
+
+/*
 .photo:hover #empilement {
     margin-top: -4px;
     margin-left: -4px;
     background-color: #64FFDA;
-}
+}*/
 
 .empilement {
     background-color: #0a192f;
@@ -492,7 +494,7 @@ nav span {
     margin-left: 30px;
     width: 271px;
     height: 318px;
-    border: solid 2px #64FFDA;
+    border: solid 2px #64ffda;
     z-index: -1;
 }
 
@@ -503,7 +505,7 @@ nav span {
 }
 
 .skills i {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 
@@ -536,7 +538,6 @@ nav span {
 
 .photoGram:hover {
     filter: unset;
-    transform: scale(1.25);
 }
 
 .textGram {
@@ -549,7 +550,7 @@ nav span {
     top: 200px;
     right: -100px;
     background-color: #112240;
-    color: #CCD6F6;
+    color: #ccd6f6;
 }
 
 .textGram2 {
@@ -562,14 +563,14 @@ nav span {
     top: 180px;
     right: -100px;
     background-color: #112240;
-    color: #CCD6F6;
+    color: #ccd6f6;
 }
 
 .projectTitle {
     text-align: end;
     font-family: "CalibreSemiBold";
     font-size: xx-large;
-    color: #CCD6F6;
+    color: #ccd6f6;
     line-height: 10px;
     transition: all 0.5s ease-in-out;
 }
@@ -592,11 +593,11 @@ nav span {
 }
 
 .projectTitle:hover {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 .projectTechno {
-    color: #CCD6F6;
+    color: #ccd6f6;
     font-family: "SFmono";
     font-size: small;
     top: 170px;
@@ -604,23 +605,23 @@ nav span {
 
 .githubLink i {
     font-size: 20px;
-    color: #CCD6F6;
+    color: #ccd6f6;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
 }
 
 .githubLink i:hover {
-    color: #64FFDA;
+    color: #64ffda;
 }
 
 .githubLink {
-    position: relative!important;
+    position: relative !important;
     z-index: 5;
 }
 
 .workMobile a {
     position: relative;
-    z-index: 999!important;
+    z-index: 999 !important;
 }
 
 .workMobile,
@@ -638,32 +639,32 @@ nav span {
 }
 
 .showLess {
-    border: 1px solid #64FFDA;
-    color: #64FFDA;
+    border: 1px solid #64ffda;
+    color: #64ffda;
     font-family: "SFmono";
     font-size: small;
 }
 
 .contact {
-    margin-left: auto!important;
+    margin-left: auto !important;
     margin-top: 400px;
     margin-bottom: 250px;
 }
 
 .lastText {
     font-family: "CalibreSemiBold";
-    color: #CCD6F6;
+    color: #ccd6f6;
     font-size: 50px;
 }
 
 .lastP {
     font-family: "CalibreRegular";
-    font-size: larger!important;
-    color: #CCD6F6;
+    font-size: larger !important;
+    color: #ccd6f6;
 }
 
 .lastTitle {
-    color: #64FFDA;
+    color: #64ffda;
     font-family: "SFmono";
     font-size: large;
 }
@@ -672,7 +673,7 @@ nav span {
 /* ================================================================= FOOTER*/
 
 .footer {
-    color: #CCD6F6;
+    color: #ccd6f6;
     font-family: "SFmono";
     font-size: small;
 }
